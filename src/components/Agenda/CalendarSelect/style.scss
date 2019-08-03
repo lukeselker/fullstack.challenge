@@ -1,0 +1,26 @@
+@import "lib/style";
+
+
+.selectOption {
+    @include body-medium-text;
+    
+}
+
+.select {
+    @include body-medium-text;
+    width: 200px;
+    color: $blackColor;
+    outline: none;
+    border:0px;
+    background-color: $lightGrayColor
+
+}
+
+.selectWrapper {
+    border-radius:6px;
+    padding: 6px;
+    border:1px solid $lightGrayColor;
+    display:inline-block;
+    overflow:hidden;
+    background-color: $lightGrayColor
+}
